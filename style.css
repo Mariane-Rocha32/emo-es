@@ -1,0 +1,59 @@
+:root{
+    --vermelho-raiva: #D81F12 ;
+    --laranja-ansiedade:#F46C33 ;
+    --amarelo-alegria: #FFC953; 
+    --verde-nojinho: #A1D645;
+    --verde-inveja: #42D7A7;
+    --azul-tristeza: #1a9dccd5;
+    --roxo-tedio:#5332AA; 
+    --roxo-medo: #8535A6;
+    --rosa-vergonha:#C9478A;
+    --branco:#ffffff;
+
+    
+
+}
+
+body {
+    background-image: url(https://www.jdv.com.br/wp-content/uploads/2024/06/Cores-DIvertida-Mente-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position: center center;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--azul-tristeza);
+    color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    text-align:center;
+    padding: 40px;
+    font-size:140%;
+}
+
+h1{
+    color: var(--vermelho-raiva);
+    font-size: 100%;
+}
+
+button {
+    background-color: var(--rosa-vergonha);
+    margin: 10px;
+    color: var(--verde-inveja);
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--roxo-medo);
+    color: var(--verde-nojinho);
+}
+
